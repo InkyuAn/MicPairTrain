@@ -12,9 +12,9 @@ For more details, please refer to the RA-L paper.
    - Initialize a conda envirnment using "mic_pair_train.yaml"
      $ conda env create --file mic_pair_train.yaml
    - Download the datasets.
-     : [SSLR](https://www.idiap.ch/en/dataset/sslr)
-     : [DCASE2021](https://zenodo.org/records/4844825)
-     : [TUT-CA, Anechoic](https://zenodo.org/records/1237752) and [TUT-CA, Reverberant](https://zenodo.org/records/1237754)
+     ,[SSLR](https://www.idiap.ch/en/dataset/sslr)
+     ,[DCASE2021](https://zenodo.org/records/4844825)
+     ,[TUT-CA, Anechoic](https://zenodo.org/records/1237752), and [TUT-CA, Reverberant](https://zenodo.org/records/1237754)
    - Modify "get_param.py" to suit your file paths, e.g., "dataset_dir_sslr", "dataset_dir_dcase", "dataset_dir_tut_ca", and "project_dir".
    - Option: If you want to put more datasets, you need to modify the source code manually.
    
