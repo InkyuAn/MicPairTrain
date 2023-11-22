@@ -23,13 +23,13 @@ For more details, please refer to the RA-L paper.
      ; e.g., model_saved_TDOA_dir = "File/Path/YourModel.pt"
    - If you want to use the model we distributed, download and use [this file](https://drive.google.com/file/d/1iHNY8j4sX0I4042OCvXYdC5XX22A2lqz/view?usp=drive_link).
      
-   - Execute "Mic_Pair_Train/train_TDOA_rTDOA.py"
+   - Execute "Mic_Pair_Train/train_TDOA_rTDOA.py".
      $ python Mic_Pair_Train/train_TDOA_rTDOA.py
    - The training outputs will be returned on the "folder_ATA_TDOA_result" directory, configured in "get_param.py".
    - If you want to train the baseline, "DeepGCC", execute "Mic_Pair_Train/train_TDOA_DeepGCC.py".
      
 ## 3. Performing "Array Geometry-Aware Training"
-   - Execute "Mic_Pair_Train/train_DOA_rTDOA.py"
+   - Execute "Mic_Pair_Train/train_DOA_rTDOA.py".
      $ python Mic_Pair_Train/train_DOA_rTDOA.py
    - If you want to train the baseline, "DeepGCC", Do "$ python Mic_Pair_Train/train_DOA_rTDOA.py --model_version 9"
 
